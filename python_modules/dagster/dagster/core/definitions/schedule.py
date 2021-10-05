@@ -165,7 +165,8 @@ class ScheduleDefinition:
         execution_timezone (Optional[str]): Timezone in which the schedule should run. Only works
             with DagsterDaemonScheduler, and must be set when using that scheduler.
         description (Optional[str]): A human-readable description of the schedule.
-        job (Optional[Union[GraphDefinition, PipelineDefinition]]): Experimental
+        job (Optional[Union[GraphDefinition, JobDefinition]]): The job that should execute when this
+            schedule runs.
     """
 
     def __init__(
