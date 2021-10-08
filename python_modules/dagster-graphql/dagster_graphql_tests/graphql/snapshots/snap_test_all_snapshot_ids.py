@@ -6,7 +6,9 @@ from snapshottest import Snapshot
 
 snapshots = Snapshot()
 
-snapshots['test_all_snapshot_ids 1'] = '''{
+snapshots[
+    'test_all_snapshot_ids 1'
+] = '''{
   "__class__": "PipelineSnapshot",
   "config_schema_snapshot": {
     "__class__": "ConfigSchemaSnapshot",
@@ -1080,7 +1082,7 @@ snapshots['test_all_snapshot_ids 1'] = '''{
     "__class__": "DependencyStructureSnapshot",
     "solid_invocation_snaps": [
       {
-        "__class__": "SolidInvocationSnap",
+        "__class__": "NodeInvocationSnap",
         "input_dep_snaps": [
           {
             "__class__": "InputDependencySnap",
@@ -1101,7 +1103,7 @@ snapshots['test_all_snapshot_ids 1'] = '''{
         "tags": {}
       },
       {
-        "__class__": "SolidInvocationSnap",
+        "__class__": "NodeInvocationSnap",
         "input_dep_snaps": [
           {
             "__class__": "InputDependencySnap",
@@ -1122,7 +1124,7 @@ snapshots['test_all_snapshot_ids 1'] = '''{
         "tags": {}
       },
       {
-        "__class__": "SolidInvocationSnap",
+        "__class__": "NodeInvocationSnap",
         "input_dep_snaps": [],
         "is_dynamic_mapped": false,
         "solid_def_name": "noop_solid",
@@ -1281,7 +1283,9 @@ snapshots['test_all_snapshot_ids 1'] = '''{
 
 snapshots['test_all_snapshot_ids 10'] = 'a22d16e6fbbb5f38ebe44dab0d9317f5c80821bf'
 
-snapshots['test_all_snapshot_ids 11'] = '''{
+snapshots[
+    'test_all_snapshot_ids 11'
+] = '''{
   "__class__": "PipelineSnapshot",
   "config_schema_snapshot": {
     "__class__": "ConfigSchemaSnapshot",
@@ -2588,7 +2592,7 @@ snapshots['test_all_snapshot_ids 11'] = '''{
     "__class__": "DependencyStructureSnapshot",
     "solid_invocation_snaps": [
       {
-        "__class__": "SolidInvocationSnap",
+        "__class__": "NodeInvocationSnap",
         "input_dep_snaps": [
           {
             "__class__": "InputDependencySnap",
@@ -2603,7 +2607,7 @@ snapshots['test_all_snapshot_ids 11'] = '''{
         "tags": {}
       },
       {
-        "__class__": "SolidInvocationSnap",
+        "__class__": "NodeInvocationSnap",
         "input_dep_snaps": [
           {
             "__class__": "InputDependencySnap",
@@ -2679,7 +2683,7 @@ snapshots['test_all_snapshot_ids 11'] = '''{
           "__class__": "DependencyStructureSnapshot",
           "solid_invocation_snaps": [
             {
-              "__class__": "SolidInvocationSnap",
+              "__class__": "NodeInvocationSnap",
               "input_dep_snaps": [
                 {
                   "__class__": "InputDependencySnap",
@@ -2694,7 +2698,7 @@ snapshots['test_all_snapshot_ids 11'] = '''{
               "tags": {}
             },
             {
-              "__class__": "SolidInvocationSnap",
+              "__class__": "NodeInvocationSnap",
               "input_dep_snaps": [
                 {
                   "__class__": "InputDependencySnap",
@@ -2761,7 +2765,7 @@ snapshots['test_all_snapshot_ids 11'] = '''{
           "__class__": "DependencyStructureSnapshot",
           "solid_invocation_snaps": [
             {
-              "__class__": "SolidInvocationSnap",
+              "__class__": "NodeInvocationSnap",
               "input_dep_snaps": [
                 {
                   "__class__": "InputDependencySnap",
@@ -2776,7 +2780,7 @@ snapshots['test_all_snapshot_ids 11'] = '''{
               "tags": {}
             },
             {
-              "__class__": "SolidInvocationSnap",
+              "__class__": "NodeInvocationSnap",
               "input_dep_snaps": [
                 {
                   "__class__": "InputDependencySnap",
@@ -2843,7 +2847,7 @@ snapshots['test_all_snapshot_ids 11'] = '''{
           "__class__": "DependencyStructureSnapshot",
           "solid_invocation_snaps": [
             {
-              "__class__": "SolidInvocationSnap",
+              "__class__": "NodeInvocationSnap",
               "input_dep_snaps": [
                 {
                   "__class__": "InputDependencySnap",
@@ -2858,7 +2862,7 @@ snapshots['test_all_snapshot_ids 11'] = '''{
               "tags": {}
             },
             {
-              "__class__": "SolidInvocationSnap",
+              "__class__": "NodeInvocationSnap",
               "input_dep_snaps": [
                 {
                   "__class__": "InputDependencySnap",
@@ -2995,7 +2999,9 @@ snapshots['test_all_snapshot_ids 11'] = '''{
 
 snapshots['test_all_snapshot_ids 12'] = '7a0db62aacaf0858920713e542dc416535a063f5'
 
-snapshots['test_all_snapshot_ids 13'] = '''{
+snapshots[
+    'test_all_snapshot_ids 13'
+] = '''{
   "__class__": "PipelineSnapshot",
   "config_schema_snapshot": {
     "__class__": "ConfigSchemaSnapshot",
@@ -4141,7 +4147,7 @@ snapshots['test_all_snapshot_ids 13'] = '''{
     "__class__": "DependencyStructureSnapshot",
     "solid_invocation_snaps": [
       {
-        "__class__": "SolidInvocationSnap",
+        "__class__": "NodeInvocationSnap",
         "input_dep_snaps": [
           {
             "__class__": "InputDependencySnap",
@@ -4156,7 +4162,7 @@ snapshots['test_all_snapshot_ids 13'] = '''{
         "tags": {}
       },
       {
-        "__class__": "SolidInvocationSnap",
+        "__class__": "NodeInvocationSnap",
         "input_dep_snaps": [
           {
             "__class__": "InputDependencySnap",
@@ -4301,7 +4307,9 @@ snapshots['test_all_snapshot_ids 13'] = '''{
 
 snapshots['test_all_snapshot_ids 14'] = '71da8227c5227b3e8a2d1ee30ba74b0e42aeca56'
 
-snapshots['test_all_snapshot_ids 15'] = '''{
+snapshots[
+    'test_all_snapshot_ids 15'
+] = '''{
   "__class__": "PipelineSnapshot",
   "config_schema_snapshot": {
     "__class__": "ConfigSchemaSnapshot",
@@ -5447,7 +5455,7 @@ snapshots['test_all_snapshot_ids 15'] = '''{
     "__class__": "DependencyStructureSnapshot",
     "solid_invocation_snaps": [
       {
-        "__class__": "SolidInvocationSnap",
+        "__class__": "NodeInvocationSnap",
         "input_dep_snaps": [
           {
             "__class__": "InputDependencySnap",
@@ -5462,7 +5470,7 @@ snapshots['test_all_snapshot_ids 15'] = '''{
         "tags": {}
       },
       {
-        "__class__": "SolidInvocationSnap",
+        "__class__": "NodeInvocationSnap",
         "input_dep_snaps": [
           {
             "__class__": "InputDependencySnap",
@@ -5607,7 +5615,9 @@ snapshots['test_all_snapshot_ids 15'] = '''{
 
 snapshots['test_all_snapshot_ids 16'] = '325b0ea3ca89d8a20c4ff1596865baa2f0b2b46e'
 
-snapshots['test_all_snapshot_ids 17'] = '''{
+snapshots[
+    'test_all_snapshot_ids 17'
+] = '''{
   "__class__": "PipelineSnapshot",
   "config_schema_snapshot": {
     "__class__": "ConfigSchemaSnapshot",
@@ -6709,7 +6719,7 @@ snapshots['test_all_snapshot_ids 17'] = '''{
     "__class__": "DependencyStructureSnapshot",
     "solid_invocation_snaps": [
       {
-        "__class__": "SolidInvocationSnap",
+        "__class__": "NodeInvocationSnap",
         "input_dep_snaps": [
           {
             "__class__": "InputDependencySnap",
@@ -6814,7 +6824,9 @@ snapshots['test_all_snapshot_ids 17'] = '''{
 
 snapshots['test_all_snapshot_ids 18'] = '897c5f29c14db09feacab1da4d08dadd2a4485fa'
 
-snapshots['test_all_snapshot_ids 19'] = '''{
+snapshots[
+    'test_all_snapshot_ids 19'
+] = '''{
   "__class__": "PipelineSnapshot",
   "config_schema_snapshot": {
     "__class__": "ConfigSchemaSnapshot",
@@ -7969,7 +7981,7 @@ snapshots['test_all_snapshot_ids 19'] = '''{
     "__class__": "DependencyStructureSnapshot",
     "solid_invocation_snaps": [
       {
-        "__class__": "SolidInvocationSnap",
+        "__class__": "NodeInvocationSnap",
         "input_dep_snaps": [
           {
             "__class__": "InputDependencySnap",
@@ -7990,7 +8002,7 @@ snapshots['test_all_snapshot_ids 19'] = '''{
         "tags": {}
       },
       {
-        "__class__": "SolidInvocationSnap",
+        "__class__": "NodeInvocationSnap",
         "input_dep_snaps": [
           {
             "__class__": "InputDependencySnap",
@@ -8005,7 +8017,7 @@ snapshots['test_all_snapshot_ids 19'] = '''{
         "tags": {}
       },
       {
-        "__class__": "SolidInvocationSnap",
+        "__class__": "NodeInvocationSnap",
         "input_dep_snaps": [
           {
             "__class__": "InputDependencySnap",
@@ -8186,7 +8198,9 @@ snapshots['test_all_snapshot_ids 2'] = '021cef0ca767128d1b29ae424a935b13796048f7
 
 snapshots['test_all_snapshot_ids 20'] = 'e557e14c39e8fe705f11fbc1a4d3c75b3afe9f88'
 
-snapshots['test_all_snapshot_ids 21'] = '''{
+snapshots[
+    'test_all_snapshot_ids 21'
+] = '''{
   "__class__": "PipelineSnapshot",
   "config_schema_snapshot": {
     "__class__": "ConfigSchemaSnapshot",
@@ -9354,7 +9368,7 @@ snapshots['test_all_snapshot_ids 21'] = '''{
     "__class__": "DependencyStructureSnapshot",
     "solid_invocation_snaps": [
       {
-        "__class__": "SolidInvocationSnap",
+        "__class__": "NodeInvocationSnap",
         "input_dep_snaps": [
           {
             "__class__": "InputDependencySnap",
@@ -9375,7 +9389,7 @@ snapshots['test_all_snapshot_ids 21'] = '''{
         "tags": {}
       },
       {
-        "__class__": "SolidInvocationSnap",
+        "__class__": "NodeInvocationSnap",
         "input_dep_snaps": [],
         "is_dynamic_mapped": false,
         "solid_def_name": "emit",
@@ -9383,7 +9397,7 @@ snapshots['test_all_snapshot_ids 21'] = '''{
         "tags": {}
       },
       {
-        "__class__": "SolidInvocationSnap",
+        "__class__": "NodeInvocationSnap",
         "input_dep_snaps": [],
         "is_dynamic_mapped": false,
         "solid_def_name": "emit_ten",
@@ -9391,7 +9405,7 @@ snapshots['test_all_snapshot_ids 21'] = '''{
         "tags": {}
       },
       {
-        "__class__": "SolidInvocationSnap",
+        "__class__": "NodeInvocationSnap",
         "input_dep_snaps": [
           {
             "__class__": "InputDependencySnap",
@@ -9412,7 +9426,7 @@ snapshots['test_all_snapshot_ids 21'] = '''{
         "tags": {}
       },
       {
-        "__class__": "SolidInvocationSnap",
+        "__class__": "NodeInvocationSnap",
         "input_dep_snaps": [
           {
             "__class__": "InputDependencySnap",
@@ -9451,7 +9465,7 @@ snapshots['test_all_snapshot_ids 21'] = '''{
         "tags": {}
       },
       {
-        "__class__": "SolidInvocationSnap",
+        "__class__": "NodeInvocationSnap",
         "input_dep_snaps": [
           {
             "__class__": "InputDependencySnap",
@@ -9696,7 +9710,9 @@ snapshots['test_all_snapshot_ids 21'] = '''{
 
 snapshots['test_all_snapshot_ids 22'] = '14d48a3bc2cfbb63e0f8bd4b6e809adaa65da7ba'
 
-snapshots['test_all_snapshot_ids 23'] = '''{
+snapshots[
+    'test_all_snapshot_ids 23'
+] = '''{
   "__class__": "PipelineSnapshot",
   "config_schema_snapshot": {
     "__class__": "ConfigSchemaSnapshot",
@@ -10968,7 +10984,7 @@ snapshots['test_all_snapshot_ids 23'] = '''{
     "__class__": "DependencyStructureSnapshot",
     "solid_invocation_snaps": [
       {
-        "__class__": "SolidInvocationSnap",
+        "__class__": "NodeInvocationSnap",
         "input_dep_snaps": [
           {
             "__class__": "InputDependencySnap",
@@ -10999,7 +11015,7 @@ snapshots['test_all_snapshot_ids 23'] = '''{
         "tags": {}
       },
       {
-        "__class__": "SolidInvocationSnap",
+        "__class__": "NodeInvocationSnap",
         "input_dep_snaps": [
           {
             "__class__": "InputDependencySnap",
@@ -11020,7 +11036,7 @@ snapshots['test_all_snapshot_ids 23'] = '''{
         "tags": {}
       },
       {
-        "__class__": "SolidInvocationSnap",
+        "__class__": "NodeInvocationSnap",
         "input_dep_snaps": [
           {
             "__class__": "InputDependencySnap",
@@ -11041,7 +11057,7 @@ snapshots['test_all_snapshot_ids 23'] = '''{
         "tags": {}
       },
       {
-        "__class__": "SolidInvocationSnap",
+        "__class__": "NodeInvocationSnap",
         "input_dep_snaps": [
           {
             "__class__": "InputDependencySnap",
@@ -11062,7 +11078,7 @@ snapshots['test_all_snapshot_ids 23'] = '''{
         "tags": {}
       },
       {
-        "__class__": "SolidInvocationSnap",
+        "__class__": "NodeInvocationSnap",
         "input_dep_snaps": [
           {
             "__class__": "InputDependencySnap",
@@ -11083,7 +11099,7 @@ snapshots['test_all_snapshot_ids 23'] = '''{
         "tags": {}
       },
       {
-        "__class__": "SolidInvocationSnap",
+        "__class__": "NodeInvocationSnap",
         "input_dep_snaps": [],
         "is_dynamic_mapped": false,
         "solid_def_name": "spawn",
@@ -11292,7 +11308,9 @@ snapshots['test_all_snapshot_ids 23'] = '''{
 
 snapshots['test_all_snapshot_ids 24'] = 'f8c155b21204c32bfbfb3185def72ba1c33d8e32'
 
-snapshots['test_all_snapshot_ids 25'] = '''{
+snapshots[
+    'test_all_snapshot_ids 25'
+] = '''{
   "__class__": "PipelineSnapshot",
   "config_schema_snapshot": {
     "__class__": "ConfigSchemaSnapshot",
@@ -12415,7 +12433,7 @@ snapshots['test_all_snapshot_ids 25'] = '''{
     "__class__": "DependencyStructureSnapshot",
     "solid_invocation_snaps": [
       {
-        "__class__": "SolidInvocationSnap",
+        "__class__": "NodeInvocationSnap",
         "input_dep_snaps": [],
         "is_dynamic_mapped": false,
         "solid_def_name": "hard_fail_or_0",
@@ -12423,7 +12441,7 @@ snapshots['test_all_snapshot_ids 25'] = '''{
         "tags": {}
       },
       {
-        "__class__": "SolidInvocationSnap",
+        "__class__": "NodeInvocationSnap",
         "input_dep_snaps": [
           {
             "__class__": "InputDependencySnap",
@@ -12561,7 +12579,9 @@ snapshots['test_all_snapshot_ids 25'] = '''{
 
 snapshots['test_all_snapshot_ids 26'] = '36c8169e2fa211de4c4b698e4a71c3de749d671f'
 
-snapshots['test_all_snapshot_ids 27'] = '''{
+snapshots[
+    'test_all_snapshot_ids 27'
+] = '''{
   "__class__": "PipelineSnapshot",
   "config_schema_snapshot": {
     "__class__": "ConfigSchemaSnapshot",
@@ -13617,7 +13637,7 @@ snapshots['test_all_snapshot_ids 27'] = '''{
     "__class__": "DependencyStructureSnapshot",
     "solid_invocation_snaps": [
       {
-        "__class__": "SolidInvocationSnap",
+        "__class__": "NodeInvocationSnap",
         "input_dep_snaps": [],
         "is_dynamic_mapped": false,
         "solid_def_name": "solid_that_gets_tags",
@@ -13710,7 +13730,9 @@ snapshots['test_all_snapshot_ids 27'] = '''{
 
 snapshots['test_all_snapshot_ids 28'] = '61574d2f3f51995138b713d0161b39300a947e1f'
 
-snapshots['test_all_snapshot_ids 29'] = '''{
+snapshots[
+    'test_all_snapshot_ids 29'
+] = '''{
   "__class__": "PipelineSnapshot",
   "config_schema_snapshot": {
     "__class__": "ConfigSchemaSnapshot",
@@ -14789,7 +14811,7 @@ snapshots['test_all_snapshot_ids 29'] = '''{
     "__class__": "DependencyStructureSnapshot",
     "solid_invocation_snaps": [
       {
-        "__class__": "SolidInvocationSnap",
+        "__class__": "NodeInvocationSnap",
         "input_dep_snaps": [],
         "is_dynamic_mapped": false,
         "solid_def_name": "loop",
@@ -14878,7 +14900,9 @@ snapshots['test_all_snapshot_ids 29'] = '''{
   "tags": {}
 }'''
 
-snapshots['test_all_snapshot_ids 3'] = '''{
+snapshots[
+    'test_all_snapshot_ids 3'
+] = '''{
   "__class__": "PipelineSnapshot",
   "config_schema_snapshot": {
     "__class__": "ConfigSchemaSnapshot",
@@ -15934,7 +15958,7 @@ snapshots['test_all_snapshot_ids 3'] = '''{
     "__class__": "DependencyStructureSnapshot",
     "solid_invocation_snaps": [
       {
-        "__class__": "SolidInvocationSnap",
+        "__class__": "NodeInvocationSnap",
         "input_dep_snaps": [],
         "is_dynamic_mapped": false,
         "solid_def_name": "tag_asset_solid",
@@ -16025,7 +16049,9 @@ snapshots['test_all_snapshot_ids 3'] = '''{
 
 snapshots['test_all_snapshot_ids 30'] = '752f480236dc4e66c2dbd2efddead99f6cd95191'
 
-snapshots['test_all_snapshot_ids 31'] = '''{
+snapshots[
+    'test_all_snapshot_ids 31'
+] = '''{
   "__class__": "PipelineSnapshot",
   "config_schema_snapshot": {
     "__class__": "ConfigSchemaSnapshot",
@@ -17081,7 +17107,7 @@ snapshots['test_all_snapshot_ids 31'] = '''{
     "__class__": "DependencyStructureSnapshot",
     "solid_invocation_snaps": [
       {
-        "__class__": "SolidInvocationSnap",
+        "__class__": "NodeInvocationSnap",
         "input_dep_snaps": [],
         "is_dynamic_mapped": false,
         "solid_def_name": "materialize",
@@ -17172,7 +17198,9 @@ snapshots['test_all_snapshot_ids 31'] = '''{
 
 snapshots['test_all_snapshot_ids 32'] = 'cef0b84cb61583fc390d27ef614907417df49a49'
 
-snapshots['test_all_snapshot_ids 33'] = '''{
+snapshots[
+    'test_all_snapshot_ids 33'
+] = '''{
   "__class__": "PipelineSnapshot",
   "config_schema_snapshot": {
     "__class__": "ConfigSchemaSnapshot",
@@ -18313,7 +18341,7 @@ snapshots['test_all_snapshot_ids 33'] = '''{
     "__class__": "DependencyStructureSnapshot",
     "solid_invocation_snaps": [
       {
-        "__class__": "SolidInvocationSnap",
+        "__class__": "NodeInvocationSnap",
         "input_dep_snaps": [],
         "is_dynamic_mapped": false,
         "solid_def_name": "a_solid_with_three_field_config",
@@ -18321,7 +18349,7 @@ snapshots['test_all_snapshot_ids 33'] = '''{
         "tags": {}
       },
       {
-        "__class__": "SolidInvocationSnap",
+        "__class__": "NodeInvocationSnap",
         "input_dep_snaps": [],
         "is_dynamic_mapped": false,
         "solid_def_name": "noop_solid",
@@ -18439,7 +18467,9 @@ snapshots['test_all_snapshot_ids 33'] = '''{
 
 snapshots['test_all_snapshot_ids 34'] = '40615c7b44da22ee3390682dea49d0c2521db9f9'
 
-snapshots['test_all_snapshot_ids 35'] = '''{
+snapshots[
+    'test_all_snapshot_ids 35'
+] = '''{
   "__class__": "PipelineSnapshot",
   "config_schema_snapshot": {
     "__class__": "ConfigSchemaSnapshot",
@@ -19578,7 +19608,7 @@ snapshots['test_all_snapshot_ids 35'] = '''{
     "__class__": "DependencyStructureSnapshot",
     "solid_invocation_snaps": [
       {
-        "__class__": "SolidInvocationSnap",
+        "__class__": "NodeInvocationSnap",
         "input_dep_snaps": [],
         "is_dynamic_mapped": false,
         "solid_def_name": "a_solid_with_multilayered_config",
@@ -19660,7 +19690,9 @@ snapshots['test_all_snapshot_ids 35'] = '''{
 
 snapshots['test_all_snapshot_ids 36'] = '6d73f0938c2d6a7b68cfbec4a2d4bda17a4d1a05'
 
-snapshots['test_all_snapshot_ids 37'] = '''{
+snapshots[
+    'test_all_snapshot_ids 37'
+] = '''{
   "__class__": "PipelineSnapshot",
   "config_schema_snapshot": {
     "__class__": "ConfigSchemaSnapshot",
@@ -20725,7 +20757,7 @@ snapshots['test_all_snapshot_ids 37'] = '''{
     "__class__": "DependencyStructureSnapshot",
     "solid_invocation_snaps": [
       {
-        "__class__": "SolidInvocationSnap",
+        "__class__": "NodeInvocationSnap",
         "input_dep_snaps": [],
         "is_dynamic_mapped": false,
         "solid_def_name": "solid_asset_a",
@@ -20733,7 +20765,7 @@ snapshots['test_all_snapshot_ids 37'] = '''{
         "tags": {}
       },
       {
-        "__class__": "SolidInvocationSnap",
+        "__class__": "NodeInvocationSnap",
         "input_dep_snaps": [
           {
             "__class__": "InputDependencySnap",
@@ -20871,7 +20903,9 @@ snapshots['test_all_snapshot_ids 37'] = '''{
 
 snapshots['test_all_snapshot_ids 38'] = '022ca7832a80975732647856e44b2e83b70ce118'
 
-snapshots['test_all_snapshot_ids 39'] = '''{
+snapshots[
+    'test_all_snapshot_ids 39'
+] = '''{
   "__class__": "PipelineSnapshot",
   "config_schema_snapshot": {
     "__class__": "ConfigSchemaSnapshot",
@@ -22147,7 +22181,7 @@ snapshots['test_all_snapshot_ids 39'] = '''{
     "__class__": "DependencyStructureSnapshot",
     "solid_invocation_snaps": [
       {
-        "__class__": "SolidInvocationSnap",
+        "__class__": "NodeInvocationSnap",
         "input_dep_snaps": [],
         "is_dynamic_mapped": false,
         "solid_def_name": "return_six",
@@ -22330,7 +22364,9 @@ snapshots['test_all_snapshot_ids 4'] = 'db650eaaa67afe25fc5e22c4f41df23b7905ea55
 
 snapshots['test_all_snapshot_ids 40'] = 'c52f74e84706c6329056c253e11477f9c8af4e5b'
 
-snapshots['test_all_snapshot_ids 41'] = '''{
+snapshots[
+    'test_all_snapshot_ids 41'
+] = '''{
   "__class__": "PipelineSnapshot",
   "config_schema_snapshot": {
     "__class__": "ConfigSchemaSnapshot",
@@ -23576,7 +23612,7 @@ snapshots['test_all_snapshot_ids 41'] = '''{
     "__class__": "DependencyStructureSnapshot",
     "solid_invocation_snaps": [
       {
-        "__class__": "SolidInvocationSnap",
+        "__class__": "NodeInvocationSnap",
         "input_dep_snaps": [],
         "is_dynamic_mapped": false,
         "solid_def_name": "apply_to_three",
@@ -23787,7 +23823,9 @@ snapshots['test_all_snapshot_ids 41'] = '''{
 
 snapshots['test_all_snapshot_ids 42'] = 'e8d1b441d9aaac212f0bc164346fc5fdc64cd4e0'
 
-snapshots['test_all_snapshot_ids 43'] = '''{
+snapshots[
+    'test_all_snapshot_ids 43'
+] = '''{
   "__class__": "PipelineSnapshot",
   "config_schema_snapshot": {
     "__class__": "ConfigSchemaSnapshot",
@@ -24843,7 +24881,7 @@ snapshots['test_all_snapshot_ids 43'] = '''{
     "__class__": "DependencyStructureSnapshot",
     "solid_invocation_snaps": [
       {
-        "__class__": "SolidInvocationSnap",
+        "__class__": "NodeInvocationSnap",
         "input_dep_snaps": [],
         "is_dynamic_mapped": false,
         "solid_def_name": "throw_a_thing",
@@ -24934,7 +24972,9 @@ snapshots['test_all_snapshot_ids 43'] = '''{
 
 snapshots['test_all_snapshot_ids 44'] = 'c938ec5d970f58b04bf50a483f27953ebc31f687'
 
-snapshots['test_all_snapshot_ids 45'] = '''{
+snapshots[
+    'test_all_snapshot_ids 45'
+] = '''{
   "__class__": "PipelineSnapshot",
   "config_schema_snapshot": {
     "__class__": "ConfigSchemaSnapshot",
@@ -25999,7 +26039,7 @@ snapshots['test_all_snapshot_ids 45'] = '''{
     "__class__": "DependencyStructureSnapshot",
     "solid_invocation_snaps": [
       {
-        "__class__": "SolidInvocationSnap",
+        "__class__": "NodeInvocationSnap",
         "input_dep_snaps": [],
         "is_dynamic_mapped": false,
         "solid_def_name": "return_foo",
@@ -26007,7 +26047,7 @@ snapshots['test_all_snapshot_ids 45'] = '''{
         "tags": {}
       },
       {
-        "__class__": "SolidInvocationSnap",
+        "__class__": "NodeInvocationSnap",
         "input_dep_snaps": [
           {
             "__class__": "InputDependencySnap",
@@ -26145,7 +26185,9 @@ snapshots['test_all_snapshot_ids 45'] = '''{
 
 snapshots['test_all_snapshot_ids 46'] = '6a9434705a881d3a63e4ca0ecb5881f140e44926'
 
-snapshots['test_all_snapshot_ids 47'] = '''{
+snapshots[
+    'test_all_snapshot_ids 47'
+] = '''{
   "__class__": "PipelineSnapshot",
   "config_schema_snapshot": {
     "__class__": "ConfigSchemaSnapshot",
@@ -27201,7 +27243,7 @@ snapshots['test_all_snapshot_ids 47'] = '''{
     "__class__": "DependencyStructureSnapshot",
     "solid_invocation_snaps": [
       {
-        "__class__": "SolidInvocationSnap",
+        "__class__": "NodeInvocationSnap",
         "input_dep_snaps": [],
         "is_dynamic_mapped": false,
         "solid_def_name": "return_hello",
@@ -27292,7 +27334,9 @@ snapshots['test_all_snapshot_ids 47'] = '''{
 
 snapshots['test_all_snapshot_ids 48'] = 'a99fb62086111d8121b97fb29d1fc9a849121501'
 
-snapshots['test_all_snapshot_ids 49'] = '''{
+snapshots[
+    'test_all_snapshot_ids 49'
+] = '''{
   "__class__": "PipelineSnapshot",
   "config_schema_snapshot": {
     "__class__": "ConfigSchemaSnapshot",
@@ -28348,7 +28392,7 @@ snapshots['test_all_snapshot_ids 49'] = '''{
     "__class__": "DependencyStructureSnapshot",
     "solid_invocation_snaps": [
       {
-        "__class__": "SolidInvocationSnap",
+        "__class__": "NodeInvocationSnap",
         "input_dep_snaps": [],
         "is_dynamic_mapped": false,
         "solid_def_name": "noop_solid",
@@ -28437,7 +28481,9 @@ snapshots['test_all_snapshot_ids 49'] = '''{
   "tags": {}
 }'''
 
-snapshots['test_all_snapshot_ids 5'] = '''{
+snapshots[
+    'test_all_snapshot_ids 5'
+] = '''{
   "__class__": "PipelineSnapshot",
   "config_schema_snapshot": {
     "__class__": "ConfigSchemaSnapshot",
@@ -29493,7 +29539,7 @@ snapshots['test_all_snapshot_ids 5'] = '''{
     "__class__": "DependencyStructureSnapshot",
     "solid_invocation_snaps": [
       {
-        "__class__": "SolidInvocationSnap",
+        "__class__": "NodeInvocationSnap",
         "input_dep_snaps": [],
         "is_dynamic_mapped": false,
         "solid_def_name": "backcompat_materialize",
@@ -29584,7 +29630,9 @@ snapshots['test_all_snapshot_ids 5'] = '''{
 
 snapshots['test_all_snapshot_ids 50'] = '0965b76124e758660317760c7e9bbc66282f33b0'
 
-snapshots['test_all_snapshot_ids 51'] = '''{
+snapshots[
+    'test_all_snapshot_ids 51'
+] = '''{
   "__class__": "PipelineSnapshot",
   "config_schema_snapshot": {
     "__class__": "ConfigSchemaSnapshot",
@@ -30658,7 +30706,7 @@ snapshots['test_all_snapshot_ids 51'] = '''{
     "__class__": "DependencyStructureSnapshot",
     "solid_invocation_snaps": [
       {
-        "__class__": "SolidInvocationSnap",
+        "__class__": "NodeInvocationSnap",
         "input_dep_snaps": [],
         "is_dynamic_mapped": false,
         "solid_def_name": "noop_solid",
@@ -30666,7 +30714,7 @@ snapshots['test_all_snapshot_ids 51'] = '''{
         "tags": {}
       },
       {
-        "__class__": "SolidInvocationSnap",
+        "__class__": "NodeInvocationSnap",
         "input_dep_snaps": [
           {
             "__class__": "InputDependencySnap",
@@ -30687,7 +30735,7 @@ snapshots['test_all_snapshot_ids 51'] = '''{
         "tags": {}
       },
       {
-        "__class__": "SolidInvocationSnap",
+        "__class__": "NodeInvocationSnap",
         "input_dep_snaps": [
           {
             "__class__": "InputDependencySnap",
@@ -30859,7 +30907,9 @@ snapshots['test_all_snapshot_ids 51'] = '''{
 
 snapshots['test_all_snapshot_ids 52'] = '30099d2414fc896c225f202240997d12950d6835'
 
-snapshots['test_all_snapshot_ids 53'] = '''{
+snapshots[
+    'test_all_snapshot_ids 53'
+] = '''{
   "__class__": "PipelineSnapshot",
   "config_schema_snapshot": {
     "__class__": "ConfigSchemaSnapshot",
@@ -31915,7 +31965,7 @@ snapshots['test_all_snapshot_ids 53'] = '''{
     "__class__": "DependencyStructureSnapshot",
     "solid_invocation_snaps": [
       {
-        "__class__": "SolidInvocationSnap",
+        "__class__": "NodeInvocationSnap",
         "input_dep_snaps": [],
         "is_dynamic_mapped": false,
         "solid_def_name": "solid_partitioned_asset",
@@ -32006,7 +32056,9 @@ snapshots['test_all_snapshot_ids 53'] = '''{
 
 snapshots['test_all_snapshot_ids 54'] = 'add65b837f2a576c75a652ddc9e963a50ab7c15d'
 
-snapshots['test_all_snapshot_ids 55'] = '''{
+snapshots[
+    'test_all_snapshot_ids 55'
+] = '''{
   "__class__": "PipelineSnapshot",
   "config_schema_snapshot": {
     "__class__": "ConfigSchemaSnapshot",
@@ -33091,7 +33143,7 @@ snapshots['test_all_snapshot_ids 55'] = '''{
     "__class__": "DependencyStructureSnapshot",
     "solid_invocation_snaps": [
       {
-        "__class__": "SolidInvocationSnap",
+        "__class__": "NodeInvocationSnap",
         "input_dep_snaps": [],
         "is_dynamic_mapped": false,
         "solid_def_name": "takes_an_enum",
@@ -33182,7 +33234,9 @@ snapshots['test_all_snapshot_ids 55'] = '''{
 
 snapshots['test_all_snapshot_ids 56'] = '37eeba13bfe6d0acdff7b5f5d0af26412328019d'
 
-snapshots['test_all_snapshot_ids 57'] = '''{
+snapshots[
+    'test_all_snapshot_ids 57'
+] = '''{
   "__class__": "PipelineSnapshot",
   "config_schema_snapshot": {
     "__class__": "ConfigSchemaSnapshot",
@@ -34209,7 +34263,7 @@ snapshots['test_all_snapshot_ids 57'] = '''{
     "__class__": "DependencyStructureSnapshot",
     "solid_invocation_snaps": [
       {
-        "__class__": "SolidInvocationSnap",
+        "__class__": "NodeInvocationSnap",
         "input_dep_snaps": [],
         "is_dynamic_mapped": false,
         "solid_def_name": "emit_failed_expectation",
@@ -34217,7 +34271,7 @@ snapshots['test_all_snapshot_ids 57'] = '''{
         "tags": {}
       },
       {
-        "__class__": "SolidInvocationSnap",
+        "__class__": "NodeInvocationSnap",
         "input_dep_snaps": [],
         "is_dynamic_mapped": false,
         "solid_def_name": "emit_successful_expectation",
@@ -34225,7 +34279,7 @@ snapshots['test_all_snapshot_ids 57'] = '''{
         "tags": {}
       },
       {
-        "__class__": "SolidInvocationSnap",
+        "__class__": "NodeInvocationSnap",
         "input_dep_snaps": [],
         "is_dynamic_mapped": false,
         "solid_def_name": "emit_successful_expectation_no_metadata",
@@ -34343,7 +34397,9 @@ snapshots['test_all_snapshot_ids 57'] = '''{
 
 snapshots['test_all_snapshot_ids 58'] = '164c63e77df00e62164363992831c060db1417ac'
 
-snapshots['test_all_snapshot_ids 59'] = '''{
+snapshots[
+    'test_all_snapshot_ids 59'
+] = '''{
   "__class__": "PipelineSnapshot",
   "config_schema_snapshot": {
     "__class__": "ConfigSchemaSnapshot",
@@ -35448,7 +35504,7 @@ snapshots['test_all_snapshot_ids 59'] = '''{
     "__class__": "DependencyStructureSnapshot",
     "solid_invocation_snaps": [
       {
-        "__class__": "SolidInvocationSnap",
+        "__class__": "NodeInvocationSnap",
         "input_dep_snaps": [
           {
             "__class__": "InputDependencySnap",
@@ -35469,7 +35525,7 @@ snapshots['test_all_snapshot_ids 59'] = '''{
         "tags": {}
       },
       {
-        "__class__": "SolidInvocationSnap",
+        "__class__": "NodeInvocationSnap",
         "input_dep_snaps": [],
         "is_dynamic_mapped": false,
         "solid_def_name": "one",
@@ -35596,7 +35652,9 @@ snapshots['test_all_snapshot_ids 6'] = 'd54ba34c704219bbb4a8ac3d8b71e66a624701e8
 
 snapshots['test_all_snapshot_ids 60'] = '29c0fe37b9f414db648b6126dd5859d107d1ff06'
 
-snapshots['test_all_snapshot_ids 61'] = '''{
+snapshots[
+    'test_all_snapshot_ids 61'
+] = '''{
   "__class__": "PipelineSnapshot",
   "config_schema_snapshot": {
     "__class__": "ConfigSchemaSnapshot",
@@ -36620,7 +36678,7 @@ snapshots['test_all_snapshot_ids 61'] = '''{
     "__class__": "DependencyStructureSnapshot",
     "solid_invocation_snaps": [
       {
-        "__class__": "SolidInvocationSnap",
+        "__class__": "NodeInvocationSnap",
         "input_dep_snaps": [],
         "is_dynamic_mapped": false,
         "solid_def_name": "solid_with_list",
@@ -36702,7 +36760,9 @@ snapshots['test_all_snapshot_ids 61'] = '''{
 
 snapshots['test_all_snapshot_ids 62'] = '66d7ae94cd0e8058c71fdb9bb0b7b9721a7b59a7'
 
-snapshots['test_all_snapshot_ids 63'] = '''{
+snapshots[
+    'test_all_snapshot_ids 63'
+] = '''{
   "__class__": "PipelineSnapshot",
   "config_schema_snapshot": {
     "__class__": "ConfigSchemaSnapshot",
@@ -37790,7 +37850,7 @@ snapshots['test_all_snapshot_ids 63'] = '''{
     "__class__": "DependencyStructureSnapshot",
     "solid_invocation_snaps": [
       {
-        "__class__": "SolidInvocationSnap",
+        "__class__": "NodeInvocationSnap",
         "input_dep_snaps": [],
         "is_dynamic_mapped": false,
         "solid_def_name": "solid_with_required_resource",
@@ -37897,7 +37957,9 @@ snapshots['test_all_snapshot_ids 63'] = '''{
 
 snapshots['test_all_snapshot_ids 64'] = 'a304ef599e2c67052319cc3a96fe1a1bb853ba5f'
 
-snapshots['test_all_snapshot_ids 65'] = '''{
+snapshots[
+    'test_all_snapshot_ids 65'
+] = '''{
   "__class__": "PipelineSnapshot",
   "config_schema_snapshot": {
     "__class__": "ConfigSchemaSnapshot",
@@ -39038,7 +39100,7 @@ snapshots['test_all_snapshot_ids 65'] = '''{
     "__class__": "DependencyStructureSnapshot",
     "solid_invocation_snaps": [
       {
-        "__class__": "SolidInvocationSnap",
+        "__class__": "NodeInvocationSnap",
         "input_dep_snaps": [
           {
             "__class__": "InputDependencySnap",
@@ -39059,7 +39121,7 @@ snapshots['test_all_snapshot_ids 65'] = '''{
         "tags": {}
       },
       {
-        "__class__": "SolidInvocationSnap",
+        "__class__": "NodeInvocationSnap",
         "input_dep_snaps": [
           {
             "__class__": "InputDependencySnap",
@@ -39080,7 +39142,7 @@ snapshots['test_all_snapshot_ids 65'] = '''{
         "tags": {}
       },
       {
-        "__class__": "SolidInvocationSnap",
+        "__class__": "NodeInvocationSnap",
         "input_dep_snaps": [],
         "is_dynamic_mapped": false,
         "solid_def_name": "return_one",
@@ -39088,7 +39150,7 @@ snapshots['test_all_snapshot_ids 65'] = '''{
         "tags": {}
       },
       {
-        "__class__": "SolidInvocationSnap",
+        "__class__": "NodeInvocationSnap",
         "input_dep_snaps": [
           {
             "__class__": "InputDependencySnap",
@@ -39312,7 +39374,9 @@ snapshots['test_all_snapshot_ids 65'] = '''{
 
 snapshots['test_all_snapshot_ids 66'] = 'f7cf6d6b9a0493df4cf540601af34d49115eced9'
 
-snapshots['test_all_snapshot_ids 67'] = '''{
+snapshots[
+    'test_all_snapshot_ids 67'
+] = '''{
   "__class__": "PipelineSnapshot",
   "config_schema_snapshot": {
     "__class__": "ConfigSchemaSnapshot",
@@ -40626,7 +40690,7 @@ snapshots['test_all_snapshot_ids 67'] = '''{
     "__class__": "DependencyStructureSnapshot",
     "solid_invocation_snaps": [
       {
-        "__class__": "SolidInvocationSnap",
+        "__class__": "NodeInvocationSnap",
         "input_dep_snaps": [
           {
             "__class__": "InputDependencySnap",
@@ -40647,7 +40711,7 @@ snapshots['test_all_snapshot_ids 67'] = '''{
         "tags": {}
       },
       {
-        "__class__": "SolidInvocationSnap",
+        "__class__": "NodeInvocationSnap",
         "input_dep_snaps": [
           {
             "__class__": "InputDependencySnap",
@@ -40668,7 +40732,7 @@ snapshots['test_all_snapshot_ids 67'] = '''{
         "tags": {}
       },
       {
-        "__class__": "SolidInvocationSnap",
+        "__class__": "NodeInvocationSnap",
         "input_dep_snaps": [
           {
             "__class__": "InputDependencySnap",
@@ -40689,7 +40753,7 @@ snapshots['test_all_snapshot_ids 67'] = '''{
         "tags": {}
       },
       {
-        "__class__": "SolidInvocationSnap",
+        "__class__": "NodeInvocationSnap",
         "input_dep_snaps": [
           {
             "__class__": "InputDependencySnap",
@@ -40710,7 +40774,7 @@ snapshots['test_all_snapshot_ids 67'] = '''{
         "tags": {}
       },
       {
-        "__class__": "SolidInvocationSnap",
+        "__class__": "NodeInvocationSnap",
         "input_dep_snaps": [
           {
             "__class__": "InputDependencySnap",
@@ -40731,7 +40795,7 @@ snapshots['test_all_snapshot_ids 67'] = '''{
         "tags": {}
       },
       {
-        "__class__": "SolidInvocationSnap",
+        "__class__": "NodeInvocationSnap",
         "input_dep_snaps": [],
         "is_dynamic_mapped": false,
         "solid_def_name": "multi",
@@ -40931,7 +40995,9 @@ snapshots['test_all_snapshot_ids 67'] = '''{
 
 snapshots['test_all_snapshot_ids 68'] = '47073266bd88972ce5190afc454f7cd6a3acc285'
 
-snapshots['test_all_snapshot_ids 69'] = '''{
+snapshots[
+    'test_all_snapshot_ids 69'
+] = '''{
   "__class__": "PipelineSnapshot",
   "config_schema_snapshot": {
     "__class__": "ConfigSchemaSnapshot",
@@ -42014,7 +42080,7 @@ snapshots['test_all_snapshot_ids 69'] = '''{
     "__class__": "DependencyStructureSnapshot",
     "solid_invocation_snaps": [
       {
-        "__class__": "SolidInvocationSnap",
+        "__class__": "NodeInvocationSnap",
         "input_dep_snaps": [],
         "is_dynamic_mapped": false,
         "solid_def_name": "start",
@@ -42022,7 +42088,7 @@ snapshots['test_all_snapshot_ids 69'] = '''{
         "tags": {}
       },
       {
-        "__class__": "SolidInvocationSnap",
+        "__class__": "NodeInvocationSnap",
         "input_dep_snaps": [
           {
             "__class__": "InputDependencySnap",
@@ -42190,7 +42256,9 @@ snapshots['test_all_snapshot_ids 69'] = '''{
   "tags": {}
 }'''
 
-snapshots['test_all_snapshot_ids 7'] = '''{
+snapshots[
+    'test_all_snapshot_ids 7'
+] = '''{
   "__class__": "PipelineSnapshot",
   "config_schema_snapshot": {
     "__class__": "ConfigSchemaSnapshot",
@@ -43264,7 +43332,7 @@ snapshots['test_all_snapshot_ids 7'] = '''{
     "__class__": "DependencyStructureSnapshot",
     "solid_invocation_snaps": [
       {
-        "__class__": "SolidInvocationSnap",
+        "__class__": "NodeInvocationSnap",
         "input_dep_snaps": [
           {
             "__class__": "InputDependencySnap",
@@ -43285,7 +43353,7 @@ snapshots['test_all_snapshot_ids 7'] = '''{
         "tags": {}
       },
       {
-        "__class__": "SolidInvocationSnap",
+        "__class__": "NodeInvocationSnap",
         "input_dep_snaps": [],
         "is_dynamic_mapped": false,
         "solid_def_name": "always_succeed",
@@ -43293,7 +43361,7 @@ snapshots['test_all_snapshot_ids 7'] = '''{
         "tags": {}
       },
       {
-        "__class__": "SolidInvocationSnap",
+        "__class__": "NodeInvocationSnap",
         "input_dep_snaps": [
           {
             "__class__": "InputDependencySnap",
@@ -43465,7 +43533,9 @@ snapshots['test_all_snapshot_ids 7'] = '''{
 
 snapshots['test_all_snapshot_ids 70'] = '6cb266c3a113bbc6328fc1104fdbf987c5515c34'
 
-snapshots['test_all_snapshot_ids 71'] = '''{
+snapshots[
+    'test_all_snapshot_ids 71'
+] = '''{
   "__class__": "PipelineSnapshot",
   "config_schema_snapshot": {
     "__class__": "ConfigSchemaSnapshot",
@@ -44548,7 +44618,7 @@ snapshots['test_all_snapshot_ids 71'] = '''{
     "__class__": "DependencyStructureSnapshot",
     "solid_invocation_snaps": [
       {
-        "__class__": "SolidInvocationSnap",
+        "__class__": "NodeInvocationSnap",
         "input_dep_snaps": [],
         "is_dynamic_mapped": false,
         "solid_def_name": "return_any",
@@ -44556,7 +44626,7 @@ snapshots['test_all_snapshot_ids 71'] = '''{
         "tags": {}
       },
       {
-        "__class__": "SolidInvocationSnap",
+        "__class__": "NodeInvocationSnap",
         "input_dep_snaps": [],
         "is_dynamic_mapped": false,
         "solid_def_name": "return_bool",
@@ -44564,7 +44634,7 @@ snapshots['test_all_snapshot_ids 71'] = '''{
         "tags": {}
       },
       {
-        "__class__": "SolidInvocationSnap",
+        "__class__": "NodeInvocationSnap",
         "input_dep_snaps": [],
         "is_dynamic_mapped": false,
         "solid_def_name": "return_int",
@@ -44572,7 +44642,7 @@ snapshots['test_all_snapshot_ids 71'] = '''{
         "tags": {}
       },
       {
-        "__class__": "SolidInvocationSnap",
+        "__class__": "NodeInvocationSnap",
         "input_dep_snaps": [],
         "is_dynamic_mapped": false,
         "solid_def_name": "return_str",
@@ -44744,7 +44814,9 @@ snapshots['test_all_snapshot_ids 71'] = '''{
 
 snapshots['test_all_snapshot_ids 72'] = '3135a7ae3327aaa80de08dafaf4bdef3da3158e7'
 
-snapshots['test_all_snapshot_ids 73'] = '''{
+snapshots[
+    'test_all_snapshot_ids 73'
+] = '''{
   "__class__": "PipelineSnapshot",
   "config_schema_snapshot": {
     "__class__": "ConfigSchemaSnapshot",
@@ -45736,7 +45808,7 @@ snapshots['test_all_snapshot_ids 73'] = '''{
     "__class__": "DependencyStructureSnapshot",
     "solid_invocation_snaps": [
       {
-        "__class__": "SolidInvocationSnap",
+        "__class__": "NodeInvocationSnap",
         "input_dep_snaps": [],
         "is_dynamic_mapped": false,
         "solid_def_name": "noop_solid",
@@ -45827,7 +45899,9 @@ snapshots['test_all_snapshot_ids 73'] = '''{
 
 snapshots['test_all_snapshot_ids 74'] = '5c9bb3ab67427ecad659f4d01355a987a097edd4'
 
-snapshots['test_all_snapshot_ids 75'] = '''{
+snapshots[
+    'test_all_snapshot_ids 75'
+] = '''{
   "__class__": "PipelineSnapshot",
   "config_schema_snapshot": {
     "__class__": "ConfigSchemaSnapshot",
@@ -46819,7 +46893,7 @@ snapshots['test_all_snapshot_ids 75'] = '''{
     "__class__": "DependencyStructureSnapshot",
     "solid_invocation_snaps": [
       {
-        "__class__": "SolidInvocationSnap",
+        "__class__": "NodeInvocationSnap",
         "input_dep_snaps": [],
         "is_dynamic_mapped": false,
         "solid_def_name": "noop_solid",
@@ -46910,7 +46984,9 @@ snapshots['test_all_snapshot_ids 75'] = '''{
 
 snapshots['test_all_snapshot_ids 76'] = 'ed533d48bfe13a5b7b64450b5852281cc915658f'
 
-snapshots['test_all_snapshot_ids 77'] = '''{
+snapshots[
+    'test_all_snapshot_ids 77'
+] = '''{
   "__class__": "PipelineSnapshot",
   "config_schema_snapshot": {
     "__class__": "ConfigSchemaSnapshot",
@@ -47966,7 +48042,7 @@ snapshots['test_all_snapshot_ids 77'] = '''{
     "__class__": "DependencyStructureSnapshot",
     "solid_invocation_snaps": [
       {
-        "__class__": "SolidInvocationSnap",
+        "__class__": "NodeInvocationSnap",
         "input_dep_snaps": [],
         "is_dynamic_mapped": false,
         "solid_def_name": "solid_asset_a",
@@ -48057,7 +48133,9 @@ snapshots['test_all_snapshot_ids 77'] = '''{
 
 snapshots['test_all_snapshot_ids 78'] = '663053dd05fe134ec528669d4799efa519599e07'
 
-snapshots['test_all_snapshot_ids 79'] = '''{
+snapshots[
+    'test_all_snapshot_ids 79'
+] = '''{
   "__class__": "PipelineSnapshot",
   "config_schema_snapshot": {
     "__class__": "ConfigSchemaSnapshot",
@@ -49113,7 +49191,7 @@ snapshots['test_all_snapshot_ids 79'] = '''{
     "__class__": "DependencyStructureSnapshot",
     "solid_invocation_snaps": [
       {
-        "__class__": "SolidInvocationSnap",
+        "__class__": "NodeInvocationSnap",
         "input_dep_snaps": [],
         "is_dynamic_mapped": false,
         "solid_def_name": "spew",
@@ -49206,7 +49284,9 @@ snapshots['test_all_snapshot_ids 8'] = '05430a3d6b472c6f1efff1336c5e248878acafc6
 
 snapshots['test_all_snapshot_ids 80'] = '36e3484012959a7bfe86870bca98243911b880a9'
 
-snapshots['test_all_snapshot_ids 81'] = '''{
+snapshots[
+    'test_all_snapshot_ids 81'
+] = '''{
   "__class__": "PipelineSnapshot",
   "config_schema_snapshot": {
     "__class__": "ConfigSchemaSnapshot",
@@ -50262,7 +50342,7 @@ snapshots['test_all_snapshot_ids 81'] = '''{
     "__class__": "DependencyStructureSnapshot",
     "solid_invocation_snaps": [
       {
-        "__class__": "SolidInvocationSnap",
+        "__class__": "NodeInvocationSnap",
         "input_dep_snaps": [],
         "is_dynamic_mapped": false,
         "solid_def_name": "simple_solid",
@@ -50355,7 +50435,9 @@ snapshots['test_all_snapshot_ids 81'] = '''{
 
 snapshots['test_all_snapshot_ids 82'] = '8c4b6f22d91204d29cb93af764529c3885ccc541'
 
-snapshots['test_all_snapshot_ids 9'] = '''{
+snapshots[
+    'test_all_snapshot_ids 9'
+] = '''{
   "__class__": "PipelineSnapshot",
   "config_schema_snapshot": {
     "__class__": "ConfigSchemaSnapshot",
@@ -51399,7 +51481,7 @@ snapshots['test_all_snapshot_ids 9'] = '''{
     "__class__": "DependencyStructureSnapshot",
     "solid_invocation_snaps": [
       {
-        "__class__": "SolidInvocationSnap",
+        "__class__": "NodeInvocationSnap",
         "input_dep_snaps": [],
         "is_dynamic_mapped": false,
         "solid_def_name": "simple_graph",
@@ -51462,7 +51544,7 @@ snapshots['test_all_snapshot_ids 9'] = '''{
           "__class__": "DependencyStructureSnapshot",
           "solid_invocation_snaps": [
             {
-              "__class__": "SolidInvocationSnap",
+              "__class__": "NodeInvocationSnap",
               "input_dep_snaps": [],
               "is_dynamic_mapped": false,
               "solid_def_name": "noop_solid",

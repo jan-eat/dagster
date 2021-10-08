@@ -6,7 +6,9 @@ from snapshottest import Snapshot
 
 snapshots = Snapshot()
 
-snapshots['test_external_pipeline_data 1'] = '''{
+snapshots[
+    'test_external_pipeline_data 1'
+] = '''{
   "__class__": "ExternalPipelineData",
   "active_presets": [
     {
@@ -1088,7 +1090,7 @@ snapshots['test_external_pipeline_data 1'] = '''{
       "__class__": "DependencyStructureSnapshot",
       "solid_invocation_snaps": [
         {
-          "__class__": "SolidInvocationSnap",
+          "__class__": "NodeInvocationSnap",
           "input_dep_snaps": [],
           "is_dynamic_mapped": false,
           "solid_def_name": "a_solid",
@@ -1216,7 +1218,9 @@ snapshots['test_external_pipeline_data 1'] = '''{
   }
 }'''
 
-snapshots['test_external_repository_data 1'] = '''{
+snapshots[
+    'test_external_repository_data 1'
+] = '''{
   "__class__": "ExternalRepositoryData",
   "external_asset_graph_data": [],
   "external_partition_set_datas": [
@@ -2311,7 +2315,7 @@ snapshots['test_external_repository_data 1'] = '''{
           "__class__": "DependencyStructureSnapshot",
           "solid_invocation_snaps": [
             {
-              "__class__": "SolidInvocationSnap",
+              "__class__": "NodeInvocationSnap",
               "input_dep_snaps": [],
               "is_dynamic_mapped": false,
               "solid_def_name": "a_solid",

@@ -38,7 +38,7 @@ from .dependency import (
     DynamicCollectDependencyDefinition,
     IDependencyDefinition,
     MultiDependencyDefinition,
-    SolidInvocation,
+    NodeInvocation,
 )
 from .hook import HookDefinition
 from .inference import infer_output_props
@@ -183,7 +183,7 @@ class CompleteCompositionContext(NamedTuple):
 
     name: str
     solid_defs: List[NodeDefinition]
-    dependencies: Dict[Union[str, SolidInvocation], Dict[str, IDependencyDefinition]]
+    dependencies: Dict[Union[str, NodeInvocation], Dict[str, IDependencyDefinition]]
     input_mappings: List[InputMapping]
     output_mapping_dict: Dict[str, OutputMapping]
 
@@ -196,7 +196,7 @@ class CompleteCompositionContext(NamedTuple):
         pending_invocations: Dict[str, "PendingNodeInvocation"],
     ):
 
-        dep_dict: Dict[Union[str, SolidInvocation], Dict[str, IDependencyDefinition]] = {}
+        dep_dict: Dict[Union[str, NodeInvocation], Dict[str, IDependencyDefinition]] = {}
         node_def_dict: Dict[str, NodeDefinition] = {}
         input_mappings = []
 
@@ -249,7 +249,7 @@ class CompleteCompositionContext(NamedTuple):
                     check.failed(f"Unexpected input binding - got {node}")
 
             dep_dict[
-                SolidInvocation(
+                NodeInvocation(
                     invocation.node_def.name,
                     invocation.node_name,
                     tags=invocation.tags,
@@ -920,7 +920,7 @@ def do_composition(
 ) -> Tuple[
     List[InputMapping],
     List[OutputMapping],
-    Dict[Union[str, SolidInvocation], Dict[str, IDependencyDefinition]],
+    Dict[Union[str, NodeInvocation], Dict[str, IDependencyDefinition]],
     List[NodeDefinition],
     Optional[ConfigMapping],
     List[str],
