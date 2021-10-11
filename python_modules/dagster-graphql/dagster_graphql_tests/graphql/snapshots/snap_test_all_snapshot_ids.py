@@ -1082,7 +1082,7 @@ snapshots[
     "__class__": "DependencyStructureSnapshot",
     "solid_invocation_snaps": [
       {
-        "__class__": "NodeInvocationSnap",
+        "__class__": "SolidInvocationSnap",
         "input_dep_snaps": [
           {
             "__class__": "InputDependencySnap",
@@ -1103,7 +1103,7 @@ snapshots[
         "tags": {}
       },
       {
-        "__class__": "NodeInvocationSnap",
+        "__class__": "SolidInvocationSnap",
         "input_dep_snaps": [
           {
             "__class__": "InputDependencySnap",
@@ -1124,7 +1124,7 @@ snapshots[
         "tags": {}
       },
       {
-        "__class__": "NodeInvocationSnap",
+        "__class__": "SolidInvocationSnap",
         "input_dep_snaps": [],
         "is_dynamic_mapped": false,
         "solid_def_name": "noop_solid",
@@ -2592,7 +2592,7 @@ snapshots[
     "__class__": "DependencyStructureSnapshot",
     "solid_invocation_snaps": [
       {
-        "__class__": "NodeInvocationSnap",
+        "__class__": "SolidInvocationSnap",
         "input_dep_snaps": [
           {
             "__class__": "InputDependencySnap",
@@ -2607,7 +2607,7 @@ snapshots[
         "tags": {}
       },
       {
-        "__class__": "NodeInvocationSnap",
+        "__class__": "SolidInvocationSnap",
         "input_dep_snaps": [
           {
             "__class__": "InputDependencySnap",
@@ -2683,7 +2683,7 @@ snapshots[
           "__class__": "DependencyStructureSnapshot",
           "solid_invocation_snaps": [
             {
-              "__class__": "NodeInvocationSnap",
+              "__class__": "SolidInvocationSnap",
               "input_dep_snaps": [
                 {
                   "__class__": "InputDependencySnap",
@@ -2698,7 +2698,7 @@ snapshots[
               "tags": {}
             },
             {
-              "__class__": "NodeInvocationSnap",
+              "__class__": "SolidInvocationSnap",
               "input_dep_snaps": [
                 {
                   "__class__": "InputDependencySnap",
@@ -2765,7 +2765,7 @@ snapshots[
           "__class__": "DependencyStructureSnapshot",
           "solid_invocation_snaps": [
             {
-              "__class__": "NodeInvocationSnap",
+              "__class__": "SolidInvocationSnap",
               "input_dep_snaps": [
                 {
                   "__class__": "InputDependencySnap",
@@ -2780,7 +2780,7 @@ snapshots[
               "tags": {}
             },
             {
-              "__class__": "NodeInvocationSnap",
+              "__class__": "SolidInvocationSnap",
               "input_dep_snaps": [
                 {
                   "__class__": "InputDependencySnap",
@@ -2847,7 +2847,7 @@ snapshots[
           "__class__": "DependencyStructureSnapshot",
           "solid_invocation_snaps": [
             {
-              "__class__": "NodeInvocationSnap",
+              "__class__": "SolidInvocationSnap",
               "input_dep_snaps": [
                 {
                   "__class__": "InputDependencySnap",
@@ -2862,7 +2862,7 @@ snapshots[
               "tags": {}
             },
             {
-              "__class__": "NodeInvocationSnap",
+              "__class__": "SolidInvocationSnap",
               "input_dep_snaps": [
                 {
                   "__class__": "InputDependencySnap",
@@ -4147,7 +4147,7 @@ snapshots[
     "__class__": "DependencyStructureSnapshot",
     "solid_invocation_snaps": [
       {
-        "__class__": "NodeInvocationSnap",
+        "__class__": "SolidInvocationSnap",
         "input_dep_snaps": [
           {
             "__class__": "InputDependencySnap",
@@ -4162,7 +4162,7 @@ snapshots[
         "tags": {}
       },
       {
-        "__class__": "NodeInvocationSnap",
+        "__class__": "SolidInvocationSnap",
         "input_dep_snaps": [
           {
             "__class__": "InputDependencySnap",
@@ -5455,7 +5455,7 @@ snapshots[
     "__class__": "DependencyStructureSnapshot",
     "solid_invocation_snaps": [
       {
-        "__class__": "NodeInvocationSnap",
+        "__class__": "SolidInvocationSnap",
         "input_dep_snaps": [
           {
             "__class__": "InputDependencySnap",
@@ -5470,7 +5470,7 @@ snapshots[
         "tags": {}
       },
       {
-        "__class__": "NodeInvocationSnap",
+        "__class__": "SolidInvocationSnap",
         "input_dep_snaps": [
           {
             "__class__": "InputDependencySnap",
@@ -6719,7 +6719,7 @@ snapshots[
     "__class__": "DependencyStructureSnapshot",
     "solid_invocation_snaps": [
       {
-        "__class__": "NodeInvocationSnap",
+        "__class__": "SolidInvocationSnap",
         "input_dep_snaps": [
           {
             "__class__": "InputDependencySnap",
@@ -7981,7 +7981,7 @@ snapshots[
     "__class__": "DependencyStructureSnapshot",
     "solid_invocation_snaps": [
       {
-        "__class__": "NodeInvocationSnap",
+        "__class__": "SolidInvocationSnap",
         "input_dep_snaps": [
           {
             "__class__": "InputDependencySnap",
@@ -8002,7 +8002,7 @@ snapshots[
         "tags": {}
       },
       {
-        "__class__": "NodeInvocationSnap",
+        "__class__": "SolidInvocationSnap",
         "input_dep_snaps": [
           {
             "__class__": "InputDependencySnap",
@@ -8017,7 +8017,7 @@ snapshots[
         "tags": {}
       },
       {
-        "__class__": "NodeInvocationSnap",
+        "__class__": "SolidInvocationSnap",
         "input_dep_snaps": [
           {
             "__class__": "InputDependencySnap",
@@ -9368,7 +9368,7 @@ snapshots[
     "__class__": "DependencyStructureSnapshot",
     "solid_invocation_snaps": [
       {
-        "__class__": "NodeInvocationSnap",
+        "__class__": "SolidInvocationSnap",
         "input_dep_snaps": [
           {
             "__class__": "InputDependencySnap",
@@ -9389,7 +9389,7 @@ snapshots[
         "tags": {}
       },
       {
-        "__class__": "NodeInvocationSnap",
+        "__class__": "SolidInvocationSnap",
         "input_dep_snaps": [],
         "is_dynamic_mapped": false,
         "solid_def_name": "emit",
@@ -9397,7 +9397,7 @@ snapshots[
         "tags": {}
       },
       {
-        "__class__": "NodeInvocationSnap",
+        "__class__": "SolidInvocationSnap",
         "input_dep_snaps": [],
         "is_dynamic_mapped": false,
         "solid_def_name": "emit_ten",
@@ -9405,7 +9405,7 @@ snapshots[
         "tags": {}
       },
       {
-        "__class__": "NodeInvocationSnap",
+        "__class__": "SolidInvocationSnap",
         "input_dep_snaps": [
           {
             "__class__": "InputDependencySnap",
@@ -9426,7 +9426,7 @@ snapshots[
         "tags": {}
       },
       {
-        "__class__": "NodeInvocationSnap",
+        "__class__": "SolidInvocationSnap",
         "input_dep_snaps": [
           {
             "__class__": "InputDependencySnap",
@@ -9465,7 +9465,7 @@ snapshots[
         "tags": {}
       },
       {
-        "__class__": "NodeInvocationSnap",
+        "__class__": "SolidInvocationSnap",
         "input_dep_snaps": [
           {
             "__class__": "InputDependencySnap",
@@ -10984,7 +10984,7 @@ snapshots[
     "__class__": "DependencyStructureSnapshot",
     "solid_invocation_snaps": [
       {
-        "__class__": "NodeInvocationSnap",
+        "__class__": "SolidInvocationSnap",
         "input_dep_snaps": [
           {
             "__class__": "InputDependencySnap",
@@ -11015,7 +11015,7 @@ snapshots[
         "tags": {}
       },
       {
-        "__class__": "NodeInvocationSnap",
+        "__class__": "SolidInvocationSnap",
         "input_dep_snaps": [
           {
             "__class__": "InputDependencySnap",
@@ -11036,7 +11036,7 @@ snapshots[
         "tags": {}
       },
       {
-        "__class__": "NodeInvocationSnap",
+        "__class__": "SolidInvocationSnap",
         "input_dep_snaps": [
           {
             "__class__": "InputDependencySnap",
@@ -11057,7 +11057,7 @@ snapshots[
         "tags": {}
       },
       {
-        "__class__": "NodeInvocationSnap",
+        "__class__": "SolidInvocationSnap",
         "input_dep_snaps": [
           {
             "__class__": "InputDependencySnap",
@@ -11078,7 +11078,7 @@ snapshots[
         "tags": {}
       },
       {
-        "__class__": "NodeInvocationSnap",
+        "__class__": "SolidInvocationSnap",
         "input_dep_snaps": [
           {
             "__class__": "InputDependencySnap",
@@ -11099,7 +11099,7 @@ snapshots[
         "tags": {}
       },
       {
-        "__class__": "NodeInvocationSnap",
+        "__class__": "SolidInvocationSnap",
         "input_dep_snaps": [],
         "is_dynamic_mapped": false,
         "solid_def_name": "spawn",
@@ -12433,7 +12433,7 @@ snapshots[
     "__class__": "DependencyStructureSnapshot",
     "solid_invocation_snaps": [
       {
-        "__class__": "NodeInvocationSnap",
+        "__class__": "SolidInvocationSnap",
         "input_dep_snaps": [],
         "is_dynamic_mapped": false,
         "solid_def_name": "hard_fail_or_0",
@@ -12441,7 +12441,7 @@ snapshots[
         "tags": {}
       },
       {
-        "__class__": "NodeInvocationSnap",
+        "__class__": "SolidInvocationSnap",
         "input_dep_snaps": [
           {
             "__class__": "InputDependencySnap",
@@ -13637,7 +13637,7 @@ snapshots[
     "__class__": "DependencyStructureSnapshot",
     "solid_invocation_snaps": [
       {
-        "__class__": "NodeInvocationSnap",
+        "__class__": "SolidInvocationSnap",
         "input_dep_snaps": [],
         "is_dynamic_mapped": false,
         "solid_def_name": "solid_that_gets_tags",
@@ -14811,7 +14811,7 @@ snapshots[
     "__class__": "DependencyStructureSnapshot",
     "solid_invocation_snaps": [
       {
-        "__class__": "NodeInvocationSnap",
+        "__class__": "SolidInvocationSnap",
         "input_dep_snaps": [],
         "is_dynamic_mapped": false,
         "solid_def_name": "loop",
@@ -15958,7 +15958,7 @@ snapshots[
     "__class__": "DependencyStructureSnapshot",
     "solid_invocation_snaps": [
       {
-        "__class__": "NodeInvocationSnap",
+        "__class__": "SolidInvocationSnap",
         "input_dep_snaps": [],
         "is_dynamic_mapped": false,
         "solid_def_name": "tag_asset_solid",
@@ -17107,7 +17107,7 @@ snapshots[
     "__class__": "DependencyStructureSnapshot",
     "solid_invocation_snaps": [
       {
-        "__class__": "NodeInvocationSnap",
+        "__class__": "SolidInvocationSnap",
         "input_dep_snaps": [],
         "is_dynamic_mapped": false,
         "solid_def_name": "materialize",
@@ -18341,7 +18341,7 @@ snapshots[
     "__class__": "DependencyStructureSnapshot",
     "solid_invocation_snaps": [
       {
-        "__class__": "NodeInvocationSnap",
+        "__class__": "SolidInvocationSnap",
         "input_dep_snaps": [],
         "is_dynamic_mapped": false,
         "solid_def_name": "a_solid_with_three_field_config",
@@ -18349,7 +18349,7 @@ snapshots[
         "tags": {}
       },
       {
-        "__class__": "NodeInvocationSnap",
+        "__class__": "SolidInvocationSnap",
         "input_dep_snaps": [],
         "is_dynamic_mapped": false,
         "solid_def_name": "noop_solid",
@@ -19608,7 +19608,7 @@ snapshots[
     "__class__": "DependencyStructureSnapshot",
     "solid_invocation_snaps": [
       {
-        "__class__": "NodeInvocationSnap",
+        "__class__": "SolidInvocationSnap",
         "input_dep_snaps": [],
         "is_dynamic_mapped": false,
         "solid_def_name": "a_solid_with_multilayered_config",
@@ -20757,7 +20757,7 @@ snapshots[
     "__class__": "DependencyStructureSnapshot",
     "solid_invocation_snaps": [
       {
-        "__class__": "NodeInvocationSnap",
+        "__class__": "SolidInvocationSnap",
         "input_dep_snaps": [],
         "is_dynamic_mapped": false,
         "solid_def_name": "solid_asset_a",
@@ -20765,7 +20765,7 @@ snapshots[
         "tags": {}
       },
       {
-        "__class__": "NodeInvocationSnap",
+        "__class__": "SolidInvocationSnap",
         "input_dep_snaps": [
           {
             "__class__": "InputDependencySnap",
@@ -22181,7 +22181,7 @@ snapshots[
     "__class__": "DependencyStructureSnapshot",
     "solid_invocation_snaps": [
       {
-        "__class__": "NodeInvocationSnap",
+        "__class__": "SolidInvocationSnap",
         "input_dep_snaps": [],
         "is_dynamic_mapped": false,
         "solid_def_name": "return_six",
@@ -23612,7 +23612,7 @@ snapshots[
     "__class__": "DependencyStructureSnapshot",
     "solid_invocation_snaps": [
       {
-        "__class__": "NodeInvocationSnap",
+        "__class__": "SolidInvocationSnap",
         "input_dep_snaps": [],
         "is_dynamic_mapped": false,
         "solid_def_name": "apply_to_three",
@@ -24881,7 +24881,7 @@ snapshots[
     "__class__": "DependencyStructureSnapshot",
     "solid_invocation_snaps": [
       {
-        "__class__": "NodeInvocationSnap",
+        "__class__": "SolidInvocationSnap",
         "input_dep_snaps": [],
         "is_dynamic_mapped": false,
         "solid_def_name": "throw_a_thing",
@@ -26039,7 +26039,7 @@ snapshots[
     "__class__": "DependencyStructureSnapshot",
     "solid_invocation_snaps": [
       {
-        "__class__": "NodeInvocationSnap",
+        "__class__": "SolidInvocationSnap",
         "input_dep_snaps": [],
         "is_dynamic_mapped": false,
         "solid_def_name": "return_foo",
@@ -26047,7 +26047,7 @@ snapshots[
         "tags": {}
       },
       {
-        "__class__": "NodeInvocationSnap",
+        "__class__": "SolidInvocationSnap",
         "input_dep_snaps": [
           {
             "__class__": "InputDependencySnap",
@@ -27243,7 +27243,7 @@ snapshots[
     "__class__": "DependencyStructureSnapshot",
     "solid_invocation_snaps": [
       {
-        "__class__": "NodeInvocationSnap",
+        "__class__": "SolidInvocationSnap",
         "input_dep_snaps": [],
         "is_dynamic_mapped": false,
         "solid_def_name": "return_hello",
@@ -28392,7 +28392,7 @@ snapshots[
     "__class__": "DependencyStructureSnapshot",
     "solid_invocation_snaps": [
       {
-        "__class__": "NodeInvocationSnap",
+        "__class__": "SolidInvocationSnap",
         "input_dep_snaps": [],
         "is_dynamic_mapped": false,
         "solid_def_name": "noop_solid",
@@ -29539,7 +29539,7 @@ snapshots[
     "__class__": "DependencyStructureSnapshot",
     "solid_invocation_snaps": [
       {
-        "__class__": "NodeInvocationSnap",
+        "__class__": "SolidInvocationSnap",
         "input_dep_snaps": [],
         "is_dynamic_mapped": false,
         "solid_def_name": "backcompat_materialize",
@@ -30706,7 +30706,7 @@ snapshots[
     "__class__": "DependencyStructureSnapshot",
     "solid_invocation_snaps": [
       {
-        "__class__": "NodeInvocationSnap",
+        "__class__": "SolidInvocationSnap",
         "input_dep_snaps": [],
         "is_dynamic_mapped": false,
         "solid_def_name": "noop_solid",
@@ -30714,7 +30714,7 @@ snapshots[
         "tags": {}
       },
       {
-        "__class__": "NodeInvocationSnap",
+        "__class__": "SolidInvocationSnap",
         "input_dep_snaps": [
           {
             "__class__": "InputDependencySnap",
@@ -30735,7 +30735,7 @@ snapshots[
         "tags": {}
       },
       {
-        "__class__": "NodeInvocationSnap",
+        "__class__": "SolidInvocationSnap",
         "input_dep_snaps": [
           {
             "__class__": "InputDependencySnap",
@@ -31965,7 +31965,7 @@ snapshots[
     "__class__": "DependencyStructureSnapshot",
     "solid_invocation_snaps": [
       {
-        "__class__": "NodeInvocationSnap",
+        "__class__": "SolidInvocationSnap",
         "input_dep_snaps": [],
         "is_dynamic_mapped": false,
         "solid_def_name": "solid_partitioned_asset",
@@ -33143,7 +33143,7 @@ snapshots[
     "__class__": "DependencyStructureSnapshot",
     "solid_invocation_snaps": [
       {
-        "__class__": "NodeInvocationSnap",
+        "__class__": "SolidInvocationSnap",
         "input_dep_snaps": [],
         "is_dynamic_mapped": false,
         "solid_def_name": "takes_an_enum",
@@ -34263,7 +34263,7 @@ snapshots[
     "__class__": "DependencyStructureSnapshot",
     "solid_invocation_snaps": [
       {
-        "__class__": "NodeInvocationSnap",
+        "__class__": "SolidInvocationSnap",
         "input_dep_snaps": [],
         "is_dynamic_mapped": false,
         "solid_def_name": "emit_failed_expectation",
@@ -34271,7 +34271,7 @@ snapshots[
         "tags": {}
       },
       {
-        "__class__": "NodeInvocationSnap",
+        "__class__": "SolidInvocationSnap",
         "input_dep_snaps": [],
         "is_dynamic_mapped": false,
         "solid_def_name": "emit_successful_expectation",
@@ -34279,7 +34279,7 @@ snapshots[
         "tags": {}
       },
       {
-        "__class__": "NodeInvocationSnap",
+        "__class__": "SolidInvocationSnap",
         "input_dep_snaps": [],
         "is_dynamic_mapped": false,
         "solid_def_name": "emit_successful_expectation_no_metadata",
@@ -35504,7 +35504,7 @@ snapshots[
     "__class__": "DependencyStructureSnapshot",
     "solid_invocation_snaps": [
       {
-        "__class__": "NodeInvocationSnap",
+        "__class__": "SolidInvocationSnap",
         "input_dep_snaps": [
           {
             "__class__": "InputDependencySnap",
@@ -35525,7 +35525,7 @@ snapshots[
         "tags": {}
       },
       {
-        "__class__": "NodeInvocationSnap",
+        "__class__": "SolidInvocationSnap",
         "input_dep_snaps": [],
         "is_dynamic_mapped": false,
         "solid_def_name": "one",
@@ -36678,7 +36678,7 @@ snapshots[
     "__class__": "DependencyStructureSnapshot",
     "solid_invocation_snaps": [
       {
-        "__class__": "NodeInvocationSnap",
+        "__class__": "SolidInvocationSnap",
         "input_dep_snaps": [],
         "is_dynamic_mapped": false,
         "solid_def_name": "solid_with_list",
@@ -37850,7 +37850,7 @@ snapshots[
     "__class__": "DependencyStructureSnapshot",
     "solid_invocation_snaps": [
       {
-        "__class__": "NodeInvocationSnap",
+        "__class__": "SolidInvocationSnap",
         "input_dep_snaps": [],
         "is_dynamic_mapped": false,
         "solid_def_name": "solid_with_required_resource",
@@ -39100,7 +39100,7 @@ snapshots[
     "__class__": "DependencyStructureSnapshot",
     "solid_invocation_snaps": [
       {
-        "__class__": "NodeInvocationSnap",
+        "__class__": "SolidInvocationSnap",
         "input_dep_snaps": [
           {
             "__class__": "InputDependencySnap",
@@ -39121,7 +39121,7 @@ snapshots[
         "tags": {}
       },
       {
-        "__class__": "NodeInvocationSnap",
+        "__class__": "SolidInvocationSnap",
         "input_dep_snaps": [
           {
             "__class__": "InputDependencySnap",
@@ -39142,7 +39142,7 @@ snapshots[
         "tags": {}
       },
       {
-        "__class__": "NodeInvocationSnap",
+        "__class__": "SolidInvocationSnap",
         "input_dep_snaps": [],
         "is_dynamic_mapped": false,
         "solid_def_name": "return_one",
@@ -39150,7 +39150,7 @@ snapshots[
         "tags": {}
       },
       {
-        "__class__": "NodeInvocationSnap",
+        "__class__": "SolidInvocationSnap",
         "input_dep_snaps": [
           {
             "__class__": "InputDependencySnap",
@@ -40690,7 +40690,7 @@ snapshots[
     "__class__": "DependencyStructureSnapshot",
     "solid_invocation_snaps": [
       {
-        "__class__": "NodeInvocationSnap",
+        "__class__": "SolidInvocationSnap",
         "input_dep_snaps": [
           {
             "__class__": "InputDependencySnap",
@@ -40711,7 +40711,7 @@ snapshots[
         "tags": {}
       },
       {
-        "__class__": "NodeInvocationSnap",
+        "__class__": "SolidInvocationSnap",
         "input_dep_snaps": [
           {
             "__class__": "InputDependencySnap",
@@ -40732,7 +40732,7 @@ snapshots[
         "tags": {}
       },
       {
-        "__class__": "NodeInvocationSnap",
+        "__class__": "SolidInvocationSnap",
         "input_dep_snaps": [
           {
             "__class__": "InputDependencySnap",
@@ -40753,7 +40753,7 @@ snapshots[
         "tags": {}
       },
       {
-        "__class__": "NodeInvocationSnap",
+        "__class__": "SolidInvocationSnap",
         "input_dep_snaps": [
           {
             "__class__": "InputDependencySnap",
@@ -40774,7 +40774,7 @@ snapshots[
         "tags": {}
       },
       {
-        "__class__": "NodeInvocationSnap",
+        "__class__": "SolidInvocationSnap",
         "input_dep_snaps": [
           {
             "__class__": "InputDependencySnap",
@@ -40795,7 +40795,7 @@ snapshots[
         "tags": {}
       },
       {
-        "__class__": "NodeInvocationSnap",
+        "__class__": "SolidInvocationSnap",
         "input_dep_snaps": [],
         "is_dynamic_mapped": false,
         "solid_def_name": "multi",
@@ -42080,7 +42080,7 @@ snapshots[
     "__class__": "DependencyStructureSnapshot",
     "solid_invocation_snaps": [
       {
-        "__class__": "NodeInvocationSnap",
+        "__class__": "SolidInvocationSnap",
         "input_dep_snaps": [],
         "is_dynamic_mapped": false,
         "solid_def_name": "start",
@@ -42088,7 +42088,7 @@ snapshots[
         "tags": {}
       },
       {
-        "__class__": "NodeInvocationSnap",
+        "__class__": "SolidInvocationSnap",
         "input_dep_snaps": [
           {
             "__class__": "InputDependencySnap",
@@ -43332,7 +43332,7 @@ snapshots[
     "__class__": "DependencyStructureSnapshot",
     "solid_invocation_snaps": [
       {
-        "__class__": "NodeInvocationSnap",
+        "__class__": "SolidInvocationSnap",
         "input_dep_snaps": [
           {
             "__class__": "InputDependencySnap",
@@ -43353,7 +43353,7 @@ snapshots[
         "tags": {}
       },
       {
-        "__class__": "NodeInvocationSnap",
+        "__class__": "SolidInvocationSnap",
         "input_dep_snaps": [],
         "is_dynamic_mapped": false,
         "solid_def_name": "always_succeed",
@@ -43361,7 +43361,7 @@ snapshots[
         "tags": {}
       },
       {
-        "__class__": "NodeInvocationSnap",
+        "__class__": "SolidInvocationSnap",
         "input_dep_snaps": [
           {
             "__class__": "InputDependencySnap",
@@ -44618,7 +44618,7 @@ snapshots[
     "__class__": "DependencyStructureSnapshot",
     "solid_invocation_snaps": [
       {
-        "__class__": "NodeInvocationSnap",
+        "__class__": "SolidInvocationSnap",
         "input_dep_snaps": [],
         "is_dynamic_mapped": false,
         "solid_def_name": "return_any",
@@ -44626,7 +44626,7 @@ snapshots[
         "tags": {}
       },
       {
-        "__class__": "NodeInvocationSnap",
+        "__class__": "SolidInvocationSnap",
         "input_dep_snaps": [],
         "is_dynamic_mapped": false,
         "solid_def_name": "return_bool",
@@ -44634,7 +44634,7 @@ snapshots[
         "tags": {}
       },
       {
-        "__class__": "NodeInvocationSnap",
+        "__class__": "SolidInvocationSnap",
         "input_dep_snaps": [],
         "is_dynamic_mapped": false,
         "solid_def_name": "return_int",
@@ -44642,7 +44642,7 @@ snapshots[
         "tags": {}
       },
       {
-        "__class__": "NodeInvocationSnap",
+        "__class__": "SolidInvocationSnap",
         "input_dep_snaps": [],
         "is_dynamic_mapped": false,
         "solid_def_name": "return_str",
@@ -45808,7 +45808,7 @@ snapshots[
     "__class__": "DependencyStructureSnapshot",
     "solid_invocation_snaps": [
       {
-        "__class__": "NodeInvocationSnap",
+        "__class__": "SolidInvocationSnap",
         "input_dep_snaps": [],
         "is_dynamic_mapped": false,
         "solid_def_name": "noop_solid",
@@ -46893,7 +46893,7 @@ snapshots[
     "__class__": "DependencyStructureSnapshot",
     "solid_invocation_snaps": [
       {
-        "__class__": "NodeInvocationSnap",
+        "__class__": "SolidInvocationSnap",
         "input_dep_snaps": [],
         "is_dynamic_mapped": false,
         "solid_def_name": "noop_solid",
@@ -48042,7 +48042,7 @@ snapshots[
     "__class__": "DependencyStructureSnapshot",
     "solid_invocation_snaps": [
       {
-        "__class__": "NodeInvocationSnap",
+        "__class__": "SolidInvocationSnap",
         "input_dep_snaps": [],
         "is_dynamic_mapped": false,
         "solid_def_name": "solid_asset_a",
@@ -49191,7 +49191,7 @@ snapshots[
     "__class__": "DependencyStructureSnapshot",
     "solid_invocation_snaps": [
       {
-        "__class__": "NodeInvocationSnap",
+        "__class__": "SolidInvocationSnap",
         "input_dep_snaps": [],
         "is_dynamic_mapped": false,
         "solid_def_name": "spew",
@@ -50342,7 +50342,7 @@ snapshots[
     "__class__": "DependencyStructureSnapshot",
     "solid_invocation_snaps": [
       {
-        "__class__": "NodeInvocationSnap",
+        "__class__": "SolidInvocationSnap",
         "input_dep_snaps": [],
         "is_dynamic_mapped": false,
         "solid_def_name": "simple_solid",
@@ -51481,7 +51481,7 @@ snapshots[
     "__class__": "DependencyStructureSnapshot",
     "solid_invocation_snaps": [
       {
-        "__class__": "NodeInvocationSnap",
+        "__class__": "SolidInvocationSnap",
         "input_dep_snaps": [],
         "is_dynamic_mapped": false,
         "solid_def_name": "simple_graph",
@@ -51544,7 +51544,7 @@ snapshots[
           "__class__": "DependencyStructureSnapshot",
           "solid_invocation_snaps": [
             {
-              "__class__": "NodeInvocationSnap",
+              "__class__": "SolidInvocationSnap",
               "input_dep_snaps": [],
               "is_dynamic_mapped": false,
               "solid_def_name": "noop_solid",
