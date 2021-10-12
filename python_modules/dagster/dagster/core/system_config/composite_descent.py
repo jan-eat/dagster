@@ -7,7 +7,7 @@ from dagster.core.definitions.dependency import NodeHandle
 from dagster.core.definitions.graph import GraphDefinition
 from dagster.core.definitions.pipeline import PipelineDefinition
 from dagster.core.definitions.resource import ResourceDefinition
-from dagster.core.definitions.run_config import define_solid_dictionary_cls
+from dagster.core.definitions.run_config import define_node_dictionary_cls
 from dagster.core.definitions.solid import SolidDefinition
 from dagster.core.errors import (
     DagsterConfigMappingFunctionError,
@@ -198,9 +198,9 @@ def _apply_top_level_config_mapping(
         # Dynamically construct the type that the output of the config mapping function will
         # be evaluated against
 
-        type_to_evaluate_against = define_solid_dictionary_cls(
-            solids=graph_def.solids,
-            ignored_solids=None,
+        type_to_evaluate_against = define_node_dictionary_cls(
+            nodes=graph_def.nodes,
+            ignored_nodes=None,
             dependency_structure=graph_def.dependency_structure,
             resource_defs=resource_defs,
             is_using_graph_job_op_apis=is_using_graph_job_op_apis,
@@ -255,9 +255,9 @@ def _get_mapped_solids_dict(
     # Dynamically construct the type that the output of the config mapping function will
     # be evaluated against
 
-    type_to_evaluate_against = define_solid_dictionary_cls(
-        solids=graph_def.solids,
-        ignored_solids=None,
+    type_to_evaluate_against = define_node_dictionary_cls(
+        nodes=graph_def.nodes,
+        ignored_nodes=None,
         dependency_structure=graph_def.dependency_structure,
         parent_handle=current_stack.handle,
         resource_defs=resource_defs,
