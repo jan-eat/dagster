@@ -481,10 +481,6 @@
             "path": "/_apidocs/dynamic"
           },
           {
-            "title": "Experimental Core APIs",
-            "path": "/_apidocs/experimental"
-          },
-          {
             "title": "Versioning & Memoization",
             "path": "/_apidocs/memoization"
           },
